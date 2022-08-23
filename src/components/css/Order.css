@@ -1,0 +1,29 @@
+.order {
+    padding: 40px;
+    margin: 20px 0;
+    border: 1px solid lightgray;
+    background-color: white;
+    position: relative;
+}
+
+.orderId{
+    position: absolute;
+    top: 40px;
+    right: 20px
+}
+
+.orderTotal {
+    font-weight: 500;
+    text-align: right;
+}
+
+.forBorder{
+    border-bottom: 1px solid lightgray;
+    padding: 10px;
+}
+
+.smolOrderId{
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 1px;
+}

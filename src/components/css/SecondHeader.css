@@ -1,0 +1,39 @@
+.secondHeader{
+    display: flex;
+    height: 38px;
+    top: 0;
+    position: sticky;
+    z-index: 10;
+    align-items: center;
+    background-color: #232f3e;
+}
+
+.secondHeaderNav{
+    display: flex;
+    justify-content: center;
+}
+
+.headerOption{
+    display: flex;
+    flex-direction: column;
+    margin-left: 9px;
+    margin-right: 9px;
+    color: white;
+}
+
+.headerOptionOne{
+    display: flex;
+    flex-direction: row;
+}
+
+.headerOption:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 2px 5px #0d1b2f;
+}
+
+.secondHeaderNavOption{
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
+    padding-left: 5px;
+}
